@@ -1,0 +1,94 @@
+                                                   DAY - 1
+                                              
+                                             C – PROGRAMMING
+
+                                            Hello world program
+
+1. #include <stdio.h>
+int main()
+{
+    printf("Hello");
+}
+Output:
+Hello
+                                               Getting a number
+
+2. #include <stdio.h>
+    int main() {
+    int num;
+    printf("Enter a number: ");
+    scanf("%d", &num);
+    return 0;
+     }
+Output:
+Enter a number: 34
+
+
+                                               Adding a two number
+
+3. #include <stdio.h>
+int main()
+{
+    int num1, num2, sum;
+    printf("enter first number :");
+    scanf("%d",&num1);
+    printf("enter second number :");
+    scanf("%d",&num2);
+    sum = num1 + num2;
+    printf("The sum of %d and %d is: %d\n", num1, num2, sum);
+}
+
+Output:
+enter first number :23
+enter second number :23
+The sum of 23 and 23 is: 46
+
+
+                                               Condition for c program
+
+4. #include <stdio.h>
+void main()
+{
+    int age;
+    printf("enter a age:");
+    scanf("%d",&age);
+    if(age==18){
+        printf("eligible for voting");
+    }
+    else if(age>=18){
+        printf("eligible for voting");
+    }
+    else{
+        printf("not eligible");
+    }
+}
+
+Output:
+enter a age:18
+eligible for voting
+
+
+                                                    Data type program
+5. #include <stdio.h>
+
+int main() {
+    int myInt = 25;               
+    float myFloat = 3.14f;        
+    double myDouble = 3.14159;    
+    char myChar = 'A';           
+    _Bool myBool = 1;             
+
+    printf("Integer: %d\n", myInt);
+    printf("Float: %.2f\n", myFloat);
+    printf("Double: %.5lf\n", myDouble);
+    printf("Character: %c\n", myChar);
+    printf("Boolean: %d\n", myBool);  
+
+    return 0;
+}
+Output:
+Integer: 25
+Float: 3.14
+Double: 3.14159
+Character: A
+Boolean: 1
