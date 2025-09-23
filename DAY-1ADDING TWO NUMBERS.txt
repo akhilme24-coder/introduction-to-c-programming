@@ -1,0 +1,17 @@
+3. #include <stdio.h>
+int main()
+{
+    int num1, num2, sum;
+    printf("enter first number :");
+    scanf("%d",&num1);
+    printf("enter second number :");
+    scanf("%d",&num2);
+    sum = num1 + num2;
+    printf("The sum of %d and %d is: %d\n", num1, num2, sum);
+}
+
+Output:
+enter first number :23
+enter second number :23
+The sum of 23 and 23 is: 46
+

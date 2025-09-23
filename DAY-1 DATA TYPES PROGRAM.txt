@@ -1,0 +1,23 @@
+5. #include <stdio.h>
+
+int main() {
+    int myInt = 25;               
+    float myFloat = 3.14f;        
+    double myDouble = 3.14159;    
+    char myChar = 'A';           
+    _Bool myBool = 1;             
+
+    printf("Integer: %d\n", myInt);
+    printf("Float: %.2f\n", myFloat);
+    printf("Double: %.5lf\n", myDouble);
+    printf("Character: %c\n", myChar);
+    printf("Boolean: %d\n", myBool);  
+
+    return 0;
+}
+Output:
+Integer: 25
+Float: 3.14
+Double: 3.14159
+Character: A
+Boolean: 1
