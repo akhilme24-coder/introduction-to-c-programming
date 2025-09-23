@@ -92,3 +92,4 @@ Float: 3.14
 Double: 3.14159
 Character: A
 Boolean: 1
+
