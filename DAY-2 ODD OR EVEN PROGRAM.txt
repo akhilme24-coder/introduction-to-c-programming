@@ -1,4 +1,4 @@
-1.#include <stdio.h>
+#include <stdio.h>
 int main()
 {
  int num;
@@ -15,4 +15,5 @@ int main()
 OUTPUT:
 Enter the integer:3
 -1202566036 is odd.
+
 
