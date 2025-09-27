@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <ctype.h>  // for toupper() and tolower()
+
+int main() {
+    char str[] = "Hello World!";
+    char upper[100], lower[100];
+    int i = 0;
+
+    // Convert to uppercase
+    while (str[i]) {
+        upper[i] = toupper(str[i]);
+        lower[i] = tolower(str[i]);
+        i++;
+    }
+    upper[i] = '\0';
+    lower[i] = '\0';
+
+    printf("Original: %s\n", str);
+    printf("Uppercase: %s\n", upper);
+    printf("Lowercase: %s\n", lower);
+
+    return 0;
+}
